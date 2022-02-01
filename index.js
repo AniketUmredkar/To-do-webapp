@@ -84,4 +84,8 @@ function deleteAll(e) {
       taskListEl.removeChild(value);
     }
   });
+  if (!taskListEl.hasChildNodes()) {
+    taskListEl.style.display = "none";
+    deleteAllBtnEl.classList.remove("btn-delete-all-show");
+  }
 }
