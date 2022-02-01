@@ -60,6 +60,7 @@ body {
   border: 1px solid #be4bdb;
   display: none;
   border-radius: 11px;
+  overflow: hidden;
 }
 
 .task {
