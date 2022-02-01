@@ -91,12 +91,14 @@ body {
 }
 
 .btn-container {
+  pointer-events: none;
   visibility: hidden;
   display: flex;
   gap: 20px;
 }
 
 .btn-show {
+  pointer-events: all;
   visibility: visible;
 }
 
